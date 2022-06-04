@@ -1,0 +1,45 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #eee;
+   margin: 1rem 0;
+    
+}
+.product .product-info{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+
+}
+.product .product-info h1{
+    font-family: vazirbold;
+  
+    
+}
+.product-info p{
+    font-family: vazirlight;
+    line-height: 3;
+}
+.beforeDiscount{
+    color: red;
+    text-decoration: line-through solid 1px red;
+}
+.after-discount{
+    color: green;
+}
+.product-img{
+    width: 100%;
+    height: 15rem;
+}
+.product-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

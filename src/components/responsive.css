@@ -1,0 +1,19 @@
+@media only screen and (max-width:768px) {
+    .product{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .parent{
+        flex-direction: column-reverse;
+    }
+    .product-parent{
+        width: 100%;
+    
+    }
+    .shopping-cart-container{
+        width: 100%;
+    }
+}

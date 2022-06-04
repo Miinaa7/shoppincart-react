@@ -1,0 +1,165 @@
+/**************style for parent that conyains products & userbasket***/
+.parent{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+/**************style for parent-product that conyains products ***/
+.product-parent{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+    border: 2px dotted #eee;
+    padding: 1rem;
+   
+}
+/******style for li*****/
+li{
+    list-style: none;
+    font-family: vazirlight;
+}
+/******************style dor shoppinf cart*********/
+/******style for container of shopping cart*******/
+.shopping-cart-container{
+    width: 40%;
+    height: fit-content;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    box-shadow: 0 0 5px gray;
+}
+.shopping-cart-container h2{
+    width: 50%;
+    margin: 1rem auto;
+   color: red;
+   font-family: vazirbold;
+   text-align: center;
+}
+/*****style for head of shopping*/
+.shopping-care-head {
+    display: flex;
+    justify-content: space-between;
+
+}
+.shopping-care-head li {
+    width: 30%;
+    text-align: center;
+   margin: 1rem;
+   border-bottom: 5px dotted #eee
+   
+}
+/******style for footer of shopping cart**/
+.shopping-cart-footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.shopping-cart-footer p{
+    width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+    font-family: vazirlight;
+}
+.shopping-cart-footer button{
+    width: 30%;
+    margin: .5rem auto;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    color: #fff;
+}
+.buttons button:active{
+    transform: scale(.98);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button:last-child{
+    background-color: #EB5353;
+}
+.buttons button:first-child{
+    background-color:#73777B;
+}
+/***style for part of shopping cart that contains products*/
+.product-container{
+    height: fit-content;
+    max-height: 20rem;
+    overflow: auto;
+}
+.parent-li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.parent-li h5,.parent-li p,.parent-li div,.parent-li >button{
+    width: 30%;
+    margin: 1rem;
+    text-align: center;
+    font-family: vazirlight;
+    
+}
+/*****style for + & - buttons*/
+.btns button{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+
+}
+.btns input{
+    width: 30px;
+    text-align: center;
+}
+.remove{
+    padding:5px;
+    width: 10%;
+    width: fit-content;
+    background-color: blue;
+    border: none;
+    outline: none;
+    background-color: #73777B;
+    color: #fff;
+    transition: all .3s;
+    cursor: pointer;
+   
+}
+.remove:active{
+    transform: scale(.98);
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.circle{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #EB5353;
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    text-align: center;
+    
+}
+.icons{
+    margin-right:1rem;
+    position: relative;
+}

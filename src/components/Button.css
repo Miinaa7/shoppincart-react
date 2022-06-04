@@ -1,0 +1,14 @@
+.button{
+    background-color: #EB5353;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    color: #fff;
+
+}
+.button:active{
+    transform: scale(.98);
+}
